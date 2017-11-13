@@ -29,7 +29,7 @@ namespace ConsoleAppArray
                 Console.Write("Please Enter Month : ");
                 try
                 {
-                    var2 = Convert.ToInt16(Console.ReadLine()) - 1;
+                    var2 = Convert.ToInt16(Console.ReadLine());
                     try
                     {
                         if (var2 > 0 && var2 <= 12)
@@ -42,7 +42,7 @@ namespace ConsoleAppArray
                         Console.WriteLine(e.Message);
                     }
 
-                    var3 = (var1 + data[var2] - 1) % 7;
+                    var3 = (var1 + data[var2] -3) % 7;
                     string[] str = new string[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
 
                     Console.WriteLine("=======================================");
