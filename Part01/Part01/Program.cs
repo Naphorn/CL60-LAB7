@@ -6,11 +6,10 @@ namespace ConsoleAppArray
         static void Main(string[] args)
         {
             int[] data = new int[10];
-            data[4] = 4;
-            data[9] = 9;
-            Console.WriteLine(data[4]);
-            Console.WriteLine(data[9]);
-            Console.WriteLine(data[4] + data[9]);
+            data[2] = 2;
+            data[6] = 6;
+            Console.WriteLine(data[2]);
+            Console.WriteLine(data[6]);
             Console.ReadLine();
         }
     }
