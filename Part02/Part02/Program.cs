@@ -11,8 +11,7 @@ namespace ConsoleAppArray
                                 "May", "June", "July", "August",
                                 "September", "October", "November", "December" };
 
-            string value3 = Array.Find(array1,
-                element => element.Length <= 3);
+            string value3 = Array.Find(array1, element => element.Length >= 10);
 
             Console.WriteLine(value3);
             Console.ReadLine();
