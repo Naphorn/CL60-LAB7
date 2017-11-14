@@ -11,12 +11,12 @@ namespace ConsoleAppArray
                                 "July", "August", "September", "October", "November",
                                 "December"};
 
-            var sortAscending = from var1 in array1
-                                orderby var1
+            var sortDescending = from var1 in array1
+                                orderby var1 descending
                                 select var1;
 
-            Console.WriteLine("------String sort ascending----------");
-            foreach (string c in sortAscending)
+            Console.WriteLine("------String sort descending----------");
+            foreach (string c in sortDescending)
                 Console.WriteLine(c);
 
             // wait
